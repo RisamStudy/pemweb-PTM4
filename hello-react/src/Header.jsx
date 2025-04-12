@@ -1,20 +1,16 @@
 // import libraries
-import React from "react";
+import React, {useState} from "react";
 
-
-// Membuat Komponen dengan Class
-
-
-// Membuat komponen dengan class
-class Header extends React.Component {
-  render() {
+function Header() {
+const state = useState("Ini dari State");
     return (
       <div>
-        <h1>Makanan Khas Indonesia</h1>
+        <h2>Makanan Khas Indonesia</h2>
+        <h3>{state}</h3>
       </div>
     );
   }
-}
+
   //Export Default
   export default Header;
   
