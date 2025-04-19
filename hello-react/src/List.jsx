@@ -6,7 +6,6 @@ class List extends Component {
     render(){
         return(
             <div>
-                <Images/>
                 <ol>
                     <li>1 <Images linkgambar = "https://foto.co.id/wp-content/uploads/2016/12/Teknik-foto-makanan.jpg" /></li>
                     <li>2 <Images linkgambar = "https://www.harapanrakyat.com/wp-content/uploads/2023/06/Asal-usul-Seblak.jpg" /></li>
