@@ -4,8 +4,8 @@ import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Profile from "./Pages/Profile";
 import App from "./App";
-import {Navbar, Nav, Container} from "react-bootstrap"
-import 'bootstrap/dist/''
+import {Navbar, Nav, Container} from "react-bootstrap";
+// import 'bootstrap/dist/''
 
 const AppRouter =()=>{
     return(
@@ -26,6 +26,6 @@ const AppRouter =()=>{
                  <Route path="/Profile" element={<Profile/>}/>
             </Routes>
         </Router>
-    )
+    )  
 }
 export default AppRouter;

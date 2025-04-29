@@ -5,7 +5,7 @@ import About from "./Pages/About";
 import Profile from "./Pages/Profile";
 import App from "./App";
 import {Navbar, Nav, Container} from "react-bootstrap"
-import 'bootstrap/dist/''
+// import 'bootstrap/dist/''
 
 const AppRouter =()=>{
     return(
